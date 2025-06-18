@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx:ubuntu 
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY cert.pem /etc/nginx/cert.pem
